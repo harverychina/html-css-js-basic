@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            width: 200px;
+            height: 100px;
+            display: block;
+            margin: 0 auto;
+        }
+        form{
+            width: 300px;
+            height: 30px;
+            margin: 100px auto;
+            position: relative;
+        }
+        input[type="text"]{
+            width: 200px;
+            height: 30px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding-left: 10px;
+            outline: none;
+        }
+        input[type="submit"]{
+            width: 80px;
+            height: 30px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #ccc;
+            position: absolute;
+            top: 0;
+            right: 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="./images/baidu_logo.png" alt="logo">
+    <form action="" method="get">
+        <input type="text" name="keyword" id="keyword">
+        <input type="submit" value="百度一下">
+    </form>
+</body>
+</html>
