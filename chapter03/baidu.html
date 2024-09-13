@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度</title>
+    <!-- 样式美化 css-->
+    <style>
+        /* 全局，整个页面 消除边框 */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            width: 200px;  /* 宽度 200 像素 */
+            height: 100px;  /* 高度 100 像素 */
+            display: block;  /* 显示属性，进行设置块状 */
+            margin: 0 auto;  /* 居中 */
+        }
+        form {
+            width: 300px;    /* 宽度 300 像素 */
+            height: 100px;  /* 高度 100 像素 */
+            margin: 100px auto;  /* 将上边距设置100像素，左、右和下边距设置自动 */
+            position: relative;  /* 浮动，自动适应其他元素位置 */
+        }
+        #keyword {
+            width: 200px;
+            height: 30px;
+            border: 1px solid #ccc;  /* 设置添加边框效果  1个像素粗细 实线 线条颜色 */
+            border-radius: 5px; /* 圆角 */
+        }
+        #btn {
+            width: 80px;
+            height: 30px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: blue;   /* 按钮的背景颜色 */
+            color: white;            /* 按钮的文字颜色 */
+            position: absolute;       /* 浮动靠近前面第1元素，文本框 */
+            cursor: pointer;          /*  设置当前控件鼠标靠近时出现手指光标 */
+        }
+    </style>
+</head>
+<body>
+    <img src="./images/baidu_logo.png" alt="logo标志">
+    <form action="" method="get">
+        <input type="text" name="keyword" id="keyword">
+        <input type="submit" value="百度一下" id="btn">
+    </form>
+</body>
+</html>
