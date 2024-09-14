@@ -1,0 +1,42 @@
+@charset "utf8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    /* 支除li前缀黑点 */
+    list-style-type: none;
+}
+
+li {
+    width: 100px;
+}
+
+li a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+
+#flex_driection_row {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+#flex_driection_column {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
