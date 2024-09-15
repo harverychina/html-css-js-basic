@@ -5,12 +5,34 @@
     padding: 0;
 }
 
-ul li {
+body {
+    text-align: center;
+}
+
+ol li {
     list-style-type: none;
 }
 
+p {
+    width: 600px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
 ol {
+    width: 600px;
     height: 200px;
-    line-height: 200px;
-    font-size: 12px;
+}
+
+li {
+    text-align: center;
+}
+
+a:hover {
+    display: block;
+    background-color: red;
+    color: white;
 }
