@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>滚动图片效果(高级版)</title>
+  <style>
+    .scrolling-wrapper {
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .scrolling-wrapper img {
+      width: 800px;
+      height: 600px;
+      display: inline-block;
+      animation: scrollImage 10s linear infinite;
+    }
+
+    @keyframes scrollImage {
+      0% {
+        transform: translateX(100%);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="scrolling-wrapper">
+    <img src="./images/3bcbc6149b77e989de69440d84f1817f.jpg" alt="one">
+    <img src="./images/c7671270fba2abab3f57cc907b643c19.jpeg" alt="two">
+    <img src="./images/d39eb18b2322d7205dec6c0369fb3711.jpg" alt="three">
+  </div>
+</body>
+
+</html>

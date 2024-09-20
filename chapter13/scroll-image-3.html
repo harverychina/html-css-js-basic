@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>图片隔4秒自动抖动效果</title>
+  <style>
+    @keyframes floating {
+      0% {
+        transform: translate(0, 0) rotate(0deg);
+      }
+
+      25% {
+        transform: translate(5px, 5px) rotate(10deg);
+      }
+
+      50% {
+        transform: translate(5px, 5px) rotate(10deg);
+      }
+
+      75% {
+        transform: translate(5px, 5px) rotate(10deg);
+      }
+
+      100% {
+        transform: translate(0, 0) rotate(0deg);
+      }
+    }
+
+    img {
+      animation: floating 4s ease-in-out infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="./images/3bcbc6149b77e989de69440d84f1817f.jpg" alt="">
+</body>
+
+</html>
