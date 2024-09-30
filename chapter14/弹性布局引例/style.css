@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#flex_wrap {
+  width: 800px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex_box {
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  text-align: center;
+  line-height: 250px;
+  color: white
+}
+
+#red_box {
+  background-color: red;
+}
+
+#green_box {
+  background-color: green;
+}
+
+#blue_box {
+  background-color: blue;
+}
