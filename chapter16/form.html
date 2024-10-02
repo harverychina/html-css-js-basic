@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>表单form</title>
+</head>
+
+<body>
+	<!-- 
+		表单主要负责提交内容，提交方式分为了get和post两种，效果有不同，通过浏览器的地址栏中找到。
+		1.get方式提交，地址栏中会显示提交的内容，不安全，一般用于查询。
+		2.post方式提交，地址栏中不会显示提交的内容，安全，一般用于提交数据。
+		3.表单中，input标签的type属性有很多种，常用的有text、password、submit、reset、radio、checkbox、file、hidden等。 
+		4.表单action属性，负责提交数据的地址，一般是服务器的地址。
+		5.表单method属性，负责提交数据的方式，一般是get或post。
+		6.表单中，input元素的name属性，负责提交数据的名称，一般是数据库中的字段名。
+		7.表单中，input元素的value属性，负责提交数据的内容，一般是数据库中的字段值。
+	-->
+	<form action="" method="get">
+		<!-- 
+			表单元素以input元素为主，其中input元素也分为了text文本框、password密码框等。
+			表单提交数据是由input元素的submit控件来完成的，反而input元素的button按钮控件没有提交数据功能。
+		-->
+		<input type="text" name="" id="" placeholder="请输入内容">
+		<input type="submit" value="提交">
+	</form>
+
+	<form action="" method="post">
+		<input type="text" name="" id="" placeholder="请输入内容">
+		<input type="submit" value="提交">
+	</form>
+</body>
+
+</html>
